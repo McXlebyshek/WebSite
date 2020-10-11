@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hotel</title>
+    </head>
+    <body>
+        <div>
+            <h1 align= "center">Hotel</h1>
+            <nav>
+                <table align="center" width="600">
+                    <tr>
+                        <th><a href="#about">About</a></th>
+                        <th><a href="#gal">Gallery</a></th>
+                        <th><a href="#cont">Contact us</a></th>
+                    </tr>
+                </table>
+            </nav>
+            <img src="img/blnk.jpg" align="center" alt="img a hotel" >
+        </div>
+        <div class="About">
+            <h1 align="center"><a name="about">About</a></h1>
+            <img src="img/blnk.jpg" align="left" alt="img" >
+            <img src="img/blnk.jpg" align="right" alt="img" >
+            <p align="center"> Something text</p>
+            <img src="img/line.png" width="1280px" height="150px" alt="" >
+        </div>
+        <div class="Galerry">
+            <h1 align="center"><a name="gal">Gallery</a></h1>
+            <img src="img/blnk.jpg" align="center" alt="img" >
+            <h3 align ="center">What this</h3>
+            <h4>Place</h4>
+            <ol>
+                <li>
+                    About Place1
+                </li>
+                <li>
+                    About Place2
+                    <ul>
+                        <li>
+                            About place2.Place1
+                        </li>
+                        <li>
+                            About place.2Place1
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    About Place3
+                </li>
+            </ol>
+        </div>
+        <div class="Contact">
+            <h1 align="center"><a name="cont">Contact Us</a></h1>
+            <img src="img/circle.png" align="left" alt="img" >
+            <h3 align="left">First</h3>
+            <img src="img/circle.png" align="left" alt="img" >
+            <h3 align="left">Second</h3>
+            <img src="img/circle.png" align="left" alt="img" >
+            <h3 align="left">Third</h3>
+            <h2 align="right">Contact</h2>
+            <div><form class="form" align="right" action="index.html" method="post">
+                <div><strong>Your problem</strong>
+                    <div><select>
+                        <optgroup label="Выберите один из вариантов">
+                            <option>Text</option>
+                            <option>Text1</option>
+                            <option>Something another</option>
+                        </select></div>
+                    </div>
+                    <div><strong>Should we call you?</strong>
+                        <div><label for="state">Yes</label> <input type="radio" name="state"></div>
+                        <div><label for="state">No</label> <input type="radio" name="state"></div>
+                    </div>
+                    <p><label>First name: </label><input type="text" name="first_name"></p>
+                    <p><label>Last name: </label><input type="text" name="last_name"></p>
+                    <p><label>Email: </label><input type="email" name="email"></p>
+                    <p><label>Password: </label><input type="password" name="password"></p>
+                    <p><input type="checkbox" value="Agree">Remeber me</p>
+                    <p><input type="submit" value="Send"></p>
+                </form></div>
+        </div>
+        </body>
+</html>
